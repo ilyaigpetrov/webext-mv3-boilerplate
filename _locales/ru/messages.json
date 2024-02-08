@@ -1,0 +1,17 @@
+{
+  "extName": {
+    "message": "Обход блокировок Рунета"
+  },
+  "extDesc": {
+    "message": "Обход интернет-цензуры в России: https://git.io/ac-wiki"
+  },
+  "FOR_TESTING": {
+    "message": "ДЛЯ ТЕСТОВ"
+  },
+  "ThisSiteIsntProxied": {
+    "message": "Этот сайт не проксируется"
+  },
+  "Version": {
+    "message": "Версия"
+  }
+}

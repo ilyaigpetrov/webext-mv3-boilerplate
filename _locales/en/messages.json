@@ -1,0 +1,17 @@
+{
+  "extName": {
+    "message": "Runet Censorship Bypass"
+  },
+  "extDesc": {
+    "message": "Circumvent Russian Internet censorship: https://git.io/ac-wiki"
+  },
+  "FOR_TESTING": {
+    "message": "FOR TESTING"
+  },
+  "ThisSiteIsntProxied": {
+    "message": "This site isn't proxied"
+  },
+  "Version": {
+    "message": "Version"
+  }
+}
