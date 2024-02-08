@@ -1,0 +1,1 @@
+# webext-mv3-boilerplate
