@@ -1,17 +1,45 @@
 {
-  "extName": {
-    "message": "Runet Censorship Bypass"
+  "ExtensionName": {
+    "message": "Copy Unicode URLs",
+    "description": "Name of the extension."
   },
-  "extDesc": {
-    "message": "Circumvent Russian Internet censorship: https://git.io/ac-wiki"
+  "ExtensionDescription": {
+    "message": "Copy Unicode URLs to clipboard without nasty percent-encodings or Punycode!",
+    "description": "Description of the extension."
   },
   "FOR_TESTING": {
     "message": "FOR TESTING"
   },
-  "ThisSiteIsntProxied": {
-    "message": "This site isn't proxied"
+
+  "IfToDecode": {
+    "message": "If to decode",
+    "description": ""
   },
-  "Version": {
-    "message": "Version"
+  "IfToEncodeUrlTerminators": {
+    "message": "If to encode URL terminators",
+    "description": ""
+  },
+  "IfToDecodeMultipleTimes": {
+    "message": "If to decode multiple times",
+    "description": ""
+  },
+  "Donate": {
+    "message": "Donate ❤",
+    "description": ""
+  },
+  "CopyUnicodeUrl": {
+    "message": "Copy Unicode URL",
+    "description": ""
+  },
+  "IconHint": {
+    "message": "Click to copy unicode URL into the clipboard",
+    "description": ""
+  },
+  "CopyUnicodeLinkToHighlight": {
+    "message": "Copy Unicode link to highlight",
+    "description": ""
+  },
+  "CopyUrlFromTheAddressBar": {
+    "message": "Copy URL from the address bar"
   }
 }

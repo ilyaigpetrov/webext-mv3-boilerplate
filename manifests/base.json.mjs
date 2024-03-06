@@ -13,31 +13,40 @@ export const render = ({ version, edition }) => {
   return {
     "manifest_version": 3,
 
-    "name": `__MSG_extName__${localizedSuffix}`,
-    "default_locale": "ru",
-    "description": "__MSG_extDesc__",
+    "default_locale": "en",
+    "name": `__MSG_ExtensionName__${localizedSuffix}`,
     "version": `${version}`,
+    "description": "__MSG_ExtensionDescription__",
+    "homepage_url": "https://github.com/ilyaigpetrov/copy-unicode-urls",
     "icons": {
-      "128": "/icons/default-128.png"
+      "128": "/icons/u-red-128.png"
     },
-    "author": "anticensority+owners@googlegroups.com",
+    "author": "ilyaigpetrov+copy-unicode-urls@gmail.com",
     "permissions": [
-        "proxy"
-      , "alarms"
-      , "storage"
-      , "unlimitedStorage"
-      , "tabs"
+      "activeTab"
       , "contextMenus"
-      , "notifications"
+      , "storage"
+      , "clipboardWrite"
     ],
       
     "action": {
       "default_title":
-        `__MSG_ThisSiteIsntProxied__ | __MSG_Version__: ${version + localizedSuffix}`,
+        `__MSG___ | __MSG_Version__: ${version + localizedSuffix}`,
       "default_popup": "/src/pages/options/index.html"
     },
     "options_ui": {
       "page": "/src/pages/options/index.html"
+    },
+    "action": {
+      "default_title": "__MSG_IconHint__",
+      "default_icon": "./icons/u-red-128.png"
+    },
+    "commands": {
+      "_execute_action": {
+        "suggested_key": {
+          "default": "Alt+U"
+        }
+      }
     }
   };
 };

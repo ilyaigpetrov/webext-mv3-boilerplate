@@ -1,20 +1,29 @@
 {
-  "name": "runet-censorship-bypass-mv3",
-  "version": "0.1.0",
+  "name": "copy-unicode-urls",
+  "version": "0.0.22",
   "description": "",
+  "homepage": "https://github.com/ilyaigpetrov/copy-unicode-urls#readme",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build",
+    "start": "npm run clean; npm run build",
     "build": "./tasks/build.mjs",
     "clean": "rm -rf /_generated",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "ilyaigpetrov",
+  "bugs": {
+    "url": "https://github.com/ilyaigpetrov/copy-unicode-urls/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilyaigpetrov/copy-unicode-urls.git"
+  },
   "license": "ISC",
   "dependencies": {
-    "merge": "^2.1.1"
+    "punycode": "^2.1.1"
   },
   "devDependencies": {
+    "merge": "^2.1.1",
     "mri": "^1.2.0"
   }
 }
